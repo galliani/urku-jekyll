@@ -1,0 +1,64 @@
+# ----
+# Site
+
+current_year: 2018
+title: "Panduan olshop Kapiten"
+description: "Kumpulan panduan dan tips untuk membangun bisnis jual-beli online"
+brand_name: "Panduan olshop Kapiten"
+tagline: "Hello  I'm <strong>Brenda Vargas.</strong> I'm working as the graphic designer of <a href='http://aristotheme.com' target='_blank'>Aristotheme</a> in Mugla doing all sorts of brand stuff."
+# cover: /assets/images/blog-cover.jpg
+logo: /assets/images/logo-only-white.png
+# logo_dark: /assets/images/kapiten-favicon.png
+favicon: /assets/images/kapiten-favicon.png
+
+
+address: ''
+phone_number: '(301) 123-4567'
+email: 'infocompany@contact.com'
+
+
+# social_media:
+facebook_url: 
+twitter_url:
+instagram_url:
+
+collections:
+  posts:
+    output: true
+    permalink: /panduan-olshop/:title
+  authors:
+    output: true
+    permalink: /panduan-olshop/author/:author
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: author
+  - scope:
+      path: "about"
+    values:
+      sitemap: false
+  - scope:
+      path: "admin/index.html"
+    values:
+      sitemap: false      
+
+# Social info
+navigation: false # show the navbar links
+subscribers: false # you need to connect an external service for this to work,
+
+# gems and other configs
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml

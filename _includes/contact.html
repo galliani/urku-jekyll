@@ -1,8 +1,16 @@
 <div class="ae-grid__item item-lg-6 item-lg--offset-3" style="margin-top: 120px;">
   <h4 class="ae-u-bolder au-mb-3 conatct__title">Hubungi Kami</h4>
-  <p class="au-mb-4 contact__addr">123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>
+  <p class="au-mb-4 contact__addr">{{ site.address }}</p>
   <p> 
-    <span class="contact__phone"> <span class="rk-light-color">Phone  </span> (301) 123-4567</span><br><span class="contact__email au-block au-truncate"> <span class="rk-light-color">Email &nbsp;&nbsp; </span><a href="#0">infocompany@contact.com</a></span>
+    <span class="contact__phone"> 
+      <span class="rk-light-color">Phone  </span> 
+      {{ site.phone_number }}
+    </span>
+    <br>
+    <span class="contact__email au-block au-truncate"> 
+      <span class="rk-light-color">Email &nbsp;&nbsp; </span>
+      {{ site.email }}
+    </span>
   </p>
   
   <form id="contact-form" action="#0" class="ae-form--full">
