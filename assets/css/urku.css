@@ -2146,11 +2146,11 @@ body {
 .rk-categories-menu {
   display: inline-block;
   padding-top: 1.6rem;
-  padding-bottom: 4.8rem;
+  padding-bottom: 1.8rem;
 }
 .rk-categories-menu .rk-menu__item {
   padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-right: 0.25rem;
   padding-bottom: 1rem;
 }
 .rk-categories-menu .rk-menu__link {
