@@ -16,6 +16,7 @@ address: "123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>"
 phone_number: '(301) 123-4567'
 email: 'infocompany@contact.com'
 
+url: "http://example.com"
 
 # social_media:
 facebook_url: 'https://facebook.com'
@@ -23,43 +24,18 @@ twitter_url: 'https://twitter.com'
 instagram_url: 'https://instagram.com'
 use_contact_form: false
 
-collections:
-  posts:
-    output: true
-    permalink: /panduan-olshop/:title
-  authors:
-    output: true
-    permalink: /panduan-olshop/author/:author
-
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: author
-  - scope:
-      path: "about"
-    values:
-      sitemap: false
   - scope:
       path: "admin/index.html"
     values:
-      sitemap: false      
-
-# Social info
-navigation: false # show the navbar links
-subscribers: false # you need to connect an external service for this to work,
+      sitemap: false
 
 # gems and other configs
 plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 feed:
   path: feed.xml
