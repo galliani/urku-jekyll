@@ -1,0 +1,49 @@
+---
+- title: Essential Stationery
+  description: Branding
+  category: 'logo'
+  display_picture: '/assets/img/project-1.jpg'
+- title: Pickled Tousled
+  description: Art Direction
+  category: 'logo'
+  display_picture: '/assets/img/project-2.jpg'  
+- title: Waistcoat Vegan
+  description: Graphic Design
+  category: 'web'
+  display_picture: '/assets/img/project-3.jpg'  
+- title: Tumblr Hammock
+  description: Packaging
+  category: 'app'
+  display_picture: '/assets/img/project-4.jpg'  
+- title: Biodiesel Etsy
+  description: Branding
+  category: 'web'
+  display_picture: '/assets/img/project-5.jpg'  
+- title: Gentrify Artisan
+  description: Graphic Design
+  category: 'app'
+  display_picture: '/assets/img/project-6.jpg'  
+- title: Plaid Austin
+  description: Graphic Design
+  category: 'logo'
+  display_picture: '/assets/img/project-7.jpg'  
+- title: Trust Fund
+  description: Packaging
+  category: 'web'
+  display_picture: '/assets/img/project-8.jpg'  
+- title: Gentrify Pork
+  description: Branding
+  category: 'web'
+  display_picture: '/assets/img/project-9.jpg'  
+- title: Waistcoat Ugh
+  description: UI/UX
+  category: 'app'
+  display_picture: '/assets/img/project-10.jpg'
+- title: Deep v Kogi
+  description: Graphic Design
+  category: 'logo'
+  display_picture: '/assets/img/project-11.jpg'  
+- title: Venmo Trust
+  description: Packaging
+  category: 'logo'
+  display_picture: '/assets/img/project-12.jpg'
