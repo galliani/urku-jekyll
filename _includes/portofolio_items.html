@@ -1,0 +1,8 @@
+{% for item in site.portofolio %}
+    <a href="#" class="rk-item rk-item--flex item-1 rk-size-4 rk-tosize-3 rk-square " data-cat="{{ item.category }}">
+        <div class="item-meta">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.short_description }}</p>
+        </div>
+    </a>
+{% endfor %}

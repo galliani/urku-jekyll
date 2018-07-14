@@ -1,4 +1,4 @@
-<div class="ae-grid__item item-lg-6 item-lg--offset-3" style="margin-top: 120px;">
+<div class="au-xs-ta-center ae-grid__item item-lg-6 item-lg--offset-3" style="margin-top: 120px;">
   <h4 class="ae-u-bolder au-mb-3 conatct__title">Hubungi Kami</h4>
   <p class="au-mb-4 contact__addr">{{ site.address }}</p>
   <p> 
@@ -13,12 +13,7 @@
     </span>
   </p>
   
-  <form id="contact-form" action="#0" class="ae-form--full">
-    <input type="text" placeholder="* Nama" required>
-    <input type="email" placeholder="* Alamat Email" required>
-    <textarea placeholder="Apa yang ingin kamu sampaikan?" cols="30" rows="4"></textarea>
-    <a href="#0" class="arrow-button arrow-button--left arrow-button--out">
-      Kirim
-    </a>
-  </form>
+  {% if site.use_contact_form %}
+    {% include contact_form.html %}
+  {% endif %}
 </div>

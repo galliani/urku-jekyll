@@ -18,9 +18,10 @@ email: 'infocompany@contact.com'
 
 
 # social_media:
-facebook_url: 
-twitter_url:
-instagram_url:
+facebook_url: 'https://facebook.com'
+twitter_url: 'https://twitter.com'
+instagram_url: 'https://instagram.com'
+use_contact_form: false
 
 collections:
   posts:
