@@ -1,21 +1,15 @@
-{% if site.data.portofolio %}
-  {% assign items = site.data.portofolio %}
-{% else %}
-  {% assign items = site.data.sample_portofolio %}  
-{% endif %}
+<div class="rk-portfolio__items">
+  {% for item in items %}
+      <a  href="#" 
+          class="rk-item rk-item--flex rk-size-4 rk-tosize-3 rk-square " 
+          data-cat="{{ item.category }}"
+          style="background-image: url('{{ item.display_picture  }}');">
 
+          <div class="item-meta">
+              <h2>{{ item.title }}</h2>
+              <p>{{ item.description }}</p>
+          </div>
 
-
-{% for item in items %}
-    <a  href="#" 
-        class="rk-item rk-item--flex rk-size-4 rk-tosize-3 rk-square " 
-        data-cat="{{ item.category }}"
-        style="background-image: url('{{ item.display_picture  }}');">
-
-        <div class="item-meta">
-            <h2>{{ item.title }}</h2>
-            <p>{{ item.short_description }}</p>
-        </div>
-
-    </a>
-{% endfor %}
+      </a>
+  {% endfor %}
+</div>

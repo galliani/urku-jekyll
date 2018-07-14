@@ -1,0 +1,12 @@
+<div class="au-xs-ta-center">
+  <ul class="rk-menu rk-categories-menu filters">
+    <li class="rk-menu__item active">
+      <a class="rk-menu__link filter fil-cat" data-rel="all">All</a>
+    </li>
+    {% for category in categories %}
+      <li class="rk-menu__item">
+        <a class="rk-menu__link filter fil-cat" data-rel="{{ category }}">{{ category }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

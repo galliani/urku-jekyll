@@ -9,24 +9,24 @@ layout: home-page
             <p>{% if site.tagline %}{{ site.tagline }}{% else %}{{ site.fallback.tagline }}{% endif %}</p>
         </div>
     </div>    
-    <div class="au-xs-ta-center">
-    <ul class="rk-menu rk-categories-menu filters">
-      <li class="rk-menu__item active">
-        <a class="rk-menu__link filter fil-cat" data-rel="all">All</a>
-      </li>
-      <li class="rk-menu__item">
-        <a class="rk-menu__link filter fil-cat" data-rel="logo">Logo</a>
-      </li>
-      <li class="rk-menu__item">
-        <a class="rk-menu__link filter fil-cat" data-rel="web">Web</a>
-      </li>
-      <li class="rk-menu__item">
-        <a class="rk-menu__link filter fil-cat" data-rel="app">App</a>
-      </li>
-    </ul>
+    
+    {% if site.data.portofolio %}
+      {% assign items = site.data.portofolio %}
+    {% else %}
+      {% assign items = site.data.sample_portofolio %}
+    {% endif %}
 
-    </div>
-    <div class="rk-portfolio__items">
-      {% include portofolio_items.html %}
-    </div>
+    {% assign categories = "" | split: ',' %}
+    {% for item in items %}
+      {% if item.category %}
+        {% assign categories = categories | push: item.category %}
+      {% endif %}      
+    {% endfor %}
+
+    {% assign categories = categories | uniq %}
+
+
+    {% include portofolio_tabs.html categories=categories %}
+
+    {% include portofolio_items.html items=items %}
 </section>
