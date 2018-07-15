@@ -1,21 +1,24 @@
 ---
-
+title: Panduan olshop Kapiten
 timezone: UTC
-
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
 - scope:
     path: admin/index.html
   values:
     sitemap: false
 current_year: 2018
-
 use_contact_form: false
-
 plugins:
 - jekyll-paginate
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
-
 feed:
   path: feed.xml
