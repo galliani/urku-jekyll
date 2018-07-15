@@ -1,24 +1,21 @@
-# ----
-# Site
+---
 
-# social_media:
-facebook_url: 'https://facebook.com'
-twitter_url: 'https://twitter.com'
-instagram_url: 'https://instagram.com'
-use_contact_form: false
+timezone: UTC
 
 defaults:
-  - scope:
-      path: "admin/index.html"
-    values:
-      sitemap: false
+- scope:
+    path: admin/index.html
+  values:
+    sitemap: false
+current_year: 2018
 
-# gems and other configs
+use_contact_form: false
+
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 
 feed:
   path: feed.xml
