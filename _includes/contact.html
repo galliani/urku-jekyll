@@ -1,42 +1,42 @@
 <div class="au-xs-ta-center ae-grid__item item-lg-6 item-lg--offset-3" style="margin-top: 120px;">
   <h4 class="ae-u-bolder au-mb-3 conatct__title">Hubungi Kami</h4>
-  <p class="contact__addr">{{ site.address }}</p>
+  <p class="contact__addr">{{ site.data.settings.address }}</p>
   <p class="au-mb-4 "> 
     <span class="contact__phone"> 
       <span class="rk-light-color">Phone  </span> 
-      {{ site.phone_number }}
+      {{ site.data.settings.phone_number }}
     </span>
     <br>
     <span class="contact__email au-block au-truncate"> 
       <span class="rk-light-color">Email &nbsp;&nbsp; </span>
-      {{ site.email }}
+      {{ site.data.settings.email }}
     </span>
   </p>
   
   <p><small>Atau kunjungi kami di media sosial</small></p>
-  {% if site.facebook_url %}
-    <a href="{{ site.facebook_url }}" class="rk-social-btn ">
+  {% if site.data.settings.facebook_url %}
+    <a href="{{ site.data.settings.facebook_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-facebook"></use>
       </svg>
     </a>
   {% endif %}
-  {% if site.twitter_url %}
-    <a href="{{ site.twitter_url }}" class="rk-social-btn ">
+  {% if site.data.settings.twitter_url %}
+    <a href="{{ site.data.settings.twitter_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-twitter"></use>
       </svg>
     </a>
   {% endif %}
-  {% if site.instagram_url %}
-    <a href="{{ site.instagram_url }}" class="rk-social-btn ">
+  {% if site.data.settings.instagram_url %}
+    <a href="{{ site.data.settings.instagram_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-instagram"></use>
       </svg>
     </a>
   {% endif %}
 
-  {% if site.use_contact_form %}
+  {% if site.data.settings.use_contact_form %}
     {% include contact_form.html %}
   {% endif %}
 </div>

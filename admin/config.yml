@@ -1,0 +1,69 @@
+backend:
+  name: git-gateway
+  branch: master
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor  
+
+# No need to review changes from CMS on Github
+# publish_mode: editorial_workflow
+
+media_folder: "images"
+
+display_url: https://jovial-sammet-8a01e8.netlify.com/
+
+collections:
+  - name: "portofolio"
+    label: "Portofolio"
+    file: "_data/portofolio.yml"
+    create: true
+    slug: "---"
+    editor:
+      preview: false
+    fields:
+      - {label: "Judul", name: "title", widget: "string"}
+      - {label: "Foto", name: "display_picture", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "markdown"}
+      - {label: "Kategori", name: "category", widget: "string", required: false}
+
+  - name: "settings"
+    label: "Pengaturan"
+    create: false # Prevent users from adding documents in this collection
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "primary"
+        label: "Utama"
+        file: "_data/settings.yml"
+        description: "Kamu dapat mengubah isi dan tampilan situsmu dengan mengisi kolom-kolom di bawah ini"
+        fields:
+          - {label: "Nama Toko", name: "title", widget: "string"}
+          - {label: "Deskripsi Toko", name: "description", widget: "text"}
+          - {label: "Alamat Email", name: "email", widget: string}
+          - {label: "Nomor Telepon", name: "phone_number", widget: string}
+          - {label: "Lokasi", name: "location", widget: string}
+          - name: styling
+            label: "Tampilan"
+            widget: "object"
+            fields:
+              - {label: "Icon Browser", name: "thumb", widget: image, class: "thumb"}
+              - {label: "Background Utama", name: front_cover, widget: image}
+              - {label: "Warna Utama", name: primary_color, widget: string, required: false}
+              - {label: "Warna Sekunder", name: secondary_color, widget: string, required: false}
+          - name: copy
+            label: "Konten Teks"
+            widget: "object"
+            fields:
+              - {label: "Tagline Toko", name: headline, widget: text}
+              - {label: "Subtagline", name: subheadline, widget: markdown, required: false}
+              - {label: "Tentang Toko", name: about_text, widget: markdown, required: false}
+              - {label: "Kontak Kami", name: contact_text, widget: markdown, required: false}
+          - name: social_media
+            label: "Profil Media Sosial"
+            widget: "object"
+            fields:
+              - {label: "Facebook", name: facebook_url, widget: string}
+              - {label: "Twitter", name: twitter_url, widget: string}
+              - {label: "Instagram", name: instagram_url, widget: string}
+              - {label: "Linkedin", name: linkedin_url, widget: string}
