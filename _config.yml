@@ -16,7 +16,8 @@ address: "123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>"
 phone_number: '(301) 123-4567'
 email: 'infocompany@contact.com'
 
-url: "http://example.com"
+# Set by environment_variables_generator.rb
+# url: "http://example.com"
 
 # social_media:
 facebook_url: 'https://facebook.com'
