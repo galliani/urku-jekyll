@@ -8,8 +8,8 @@ headline: "Hello  I'm <strong>Brenda Vargas.</strong> I'm working as the graphic
 
 # Images
 # cover: /assets/images/blog-cover.jpg
-logo: /assets/images/logo-only-white.png
-favicon: /assets/images/kapiten-favicon.png
+logo: /assets/img/urku-ico.svg
+favicon: /assets/img/urku-ico.svg
 
 # Contact
 address: "123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>"
