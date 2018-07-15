@@ -1,42 +1,37 @@
-# ----
-# Site
-
-current_year: 2018
-title: "Panduan olshop Kapiten"
-description: "Kumpulan panduan dan tips untuk membangun bisnis jual-beli online"
-brand_name: "Panduan olshop Kapiten"
-tagline: "Hello  I'm <strong>Brenda Vargas.</strong> I'm working as the graphic designer of <a href='http://aristotheme.com' target='_blank'>Aristotheme</a> in Mugla doing all sorts of brand stuff."
-# cover: /assets/images/blog-cover.jpg
-logo: /assets/images/logo-only-white.png
-# logo_dark: /assets/images/kapiten-favicon.png
-favicon: /assets/images/kapiten-favicon.png
-
-
-address: "123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>"
-phone_number: '(301) 123-4567'
-email: 'infocompany@contact.com'
-
-# Set by environment_variables_generator.rb
-# url: "http://example.com"
-
-# social_media:
-facebook_url: 'https://facebook.com'
-twitter_url: 'https://twitter.com'
-instagram_url: 'https://instagram.com'
-use_contact_form: false
-
+---
+title: Panduan olshop Kapiten
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: "admin/index.html"
-    values:
-      sitemap: false
-
-# gems and other configs
+- scope:
+    path: admin/index.html
+  values:
+    sitemap: false
+current_year: 2018
+description: Kumpulan panduan dan tips untuk membangun bisnis jual-beli online
+brand_name: Panduan olshop Kapiten
+tagline: Hello  I'm <strong>Brenda Vargas.</strong> I'm working as the graphic designer
+  of <a href='http://aristotheme.com' target='_blank'>Aristotheme</a> in Mugla doing
+  all sorts of brand stuff.
+logo: "/assets/images/logo-only-white.png"
+favicon: "/assets/images/kapiten-favicon.png"
+address: 123 Everystreet Crescent<br>Somewheresville, CA<br>12345 USA</p>
+phone_number: "(301) 123-4567"
+email: infocompany@contact.com
+facebook_url: https://facebook.com
+twitter_url: https://twitter.com
+instagram_url: https://instagram.com
+use_contact_form: false
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
+- jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 feed:
   path: feed.xml
