@@ -6,19 +6,6 @@ media_folder: "images"
 display_url: https://jovial-sammet-8a01e8.netlify.com/
 
 collections:
-  - name: "portofolio"
-    label: "Portofolio"
-    file: "_data/portofolio.yml"
-    create: true
-    slug: "---"
-    editor:
-      preview: false
-    fields:
-      - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Foto", name: "display_picture", widget: "image"}
-      - {label: "Deskripsi", name: "description", widget: "markdown"}
-      - {label: "Kategori", name: "category", widget: "string", required: false}
-
   - name: "settings"
     label: "Pengaturan"
     create: false # Prevent users from adding documents in this collection
@@ -53,3 +40,16 @@ collections:
               - {label: "Facebook", name: facebook_url, widget: string, required: false}
               - {label: "Twitter", name: twitter_url, widget: string, required: false}
               - {label: "Instagram", name: instagram_url, widget: string, required: false}
+
+      - name: "portofolio"
+        label: "Etalase"
+        file: "_data/portofolio.yml"
+        create: true
+        delete: true
+        editor:
+          preview: false
+        fields:
+          - {label: "Judul", name: "title", widget: "string"}
+          - {label: "Foto", name: "display_picture", widget: "image"}
+          - {label: "Deskripsi", name: "description", widget: "markdown"}
+          - {label: "Kategori", name: "category", widget: "string", required: false}
