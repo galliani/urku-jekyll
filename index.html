@@ -9,8 +9,8 @@ layout: home-page
         </div>
     </div>    
     
-    {% if site.data.portofolio %}
-      {% assign items = site.data.portofolio %}
+    {% if site.portofolio %}
+      {% assign items = site.portofolio %}
     {% else %}
       {% assign items = site.data.sample_portofolio %}
     {% endif %}
@@ -26,6 +26,5 @@ layout: home-page
 
 
     {% include portofolio_tabs.html categories=categories %}
-
     {% include portofolio_items.html items=items %}
 </section>
