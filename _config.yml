@@ -1,10 +1,13 @@
 ---
 title: Panduan olshop Kapiten
+current_year: 2018
 timezone: UTC
 collections:
-  posts:
-    title: Posts
+  portofolio:
+    title: Portofolio
+    path: "_portofolio/"
     output: true
+    permalink: /etalase/:title
   uploads:
     title: Uploads
     output: true

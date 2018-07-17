@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: "images"
-display_url: https://bersemi.id/
+display_url: https://bersemi.id
 
 collections:
   - name: "settings"

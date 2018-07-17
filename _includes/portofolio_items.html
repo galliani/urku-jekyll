@@ -7,7 +7,9 @@
 
           <div class="item-meta">
               <h2>{{ item.title }}</h2>
-              <p>{{ item.description }}</p>
+              <p><small><strong>Rp. {{ item.price }}</strong></small></p><br>
+
+              <p>{{ item.description | markdownify }}</p>
           </div>
 
       </a>
