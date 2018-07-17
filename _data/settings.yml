@@ -1,16 +1,14 @@
-title: Panduan olshop Kapiten
+title: Bersemi Flower Boutique
 brand_name: Bersemi
 description: 'Flower Bouquet, Flower Box & Bridal Bouquet'
-headline: >-
-  Hello  I'm <strong>Brenda Vargas.</strong> I'm working as the graphic designer
-  of <a href='http://aristotheme.com' target='_blank'>Aristotheme</a> in Mugla
-  doing all sorts of brand stuff.
+headline: 'Flower Bouquet, Flower Box & Bridal Bouquet'
 email: dikala.bersemi@gmail.com
 phone_number: +62 801 212 600
 location: |-
   Cilandak, Jakarta
   Indonesia
 styling:
+  favicon: /images/logo3-2500x2500.png
   logo: /images/logo3-2500x2500.png
 social_media:
   instagram_url: instagram.com/ber.semi
