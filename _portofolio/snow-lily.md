@@ -5,9 +5,9 @@ description: |-
 
   Wrap: Cellophane
 
-  _You can choose another colour of Lily (White, Yellow, Pink, Purple)_
+  _Another colour of Lily: White, Yellow, Pink, Purple_
 
-  _You can choose another colour of cellophane _
+  _Another colour of cellophane_
 price: '400000'
 display_picture: /images/feed137-bersemi.jpg
 ---
