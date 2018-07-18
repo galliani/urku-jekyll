@@ -1,7 +1,7 @@
 ---
 title: The Enchanted
 description: |-
-  Hydrangea | White Chrysant | Leaves
+  Hydrangea, White Chrysant & Leaves
 
   Wrap: Brown Paper
 
