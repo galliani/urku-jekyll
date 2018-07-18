@@ -1,5 +1,5 @@
 ---
-title: Single Bouquet
+title: Gerbera Single Bouquet
 description: |2-
    Choose of colour: Red, White, Yellow, Soft Pink, Pink Fanta
 
