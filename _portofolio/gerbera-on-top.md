@@ -1,7 +1,7 @@
 ---
 title: Gerbera On Top
 description: >-
-  Gerbera | Peacock | Leaf
+  Gerbera, Peacock & Leaf
 
 
   Wrap: Brown Paper
