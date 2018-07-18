@@ -1,14 +1,11 @@
 ---
 title: Gerbera On Top
-description: >-
+description: |-
   Gerbera, Peacock & Leaf
-
 
   Wrap: Brown Paper
 
-
-  _You can choose another colour of Gerbera (Red, White, Soft Pink, Pink Fanta,
-  Yellow)_
+  A_nother colour of Gerbera: Red, White, Soft Pink, Pink Fanta, Yellow_
 price: '125000'
 category: Special Bouquet
 display_picture: /images/feed160-bersemi.jpg
