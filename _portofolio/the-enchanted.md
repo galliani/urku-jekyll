@@ -5,7 +5,7 @@ description: |-
 
   Wrap: Brown Paper
 
-  _You can choose another colour of Hydrangea (Blue, Pink, Purple, Green)_
+  _Another colour of Hydrangea: Blue, Pink, Purple, Green_
 price: '165000'
 category: Special Bouquet
 display_picture: /images/feed204-bersemi.jpg
