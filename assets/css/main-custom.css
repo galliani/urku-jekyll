@@ -1,3 +1,29 @@
+header .span-logo {
+  display: inline-block;
+  vertical-align: top;
+  height: 80px;
+  width: 80px;  
+/*  height: 118px;
+  width: 152px;*/
+} 
+
+header .span-logo img {
+  max-width: 100%;
+  max-height: 100%;  
+}
+
+header .rk-logo {
+  display: table;
+  margin-top: 15px;
+}
+
+header .rk-logo a {
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: left;
+}
+
+
 .item-inside__meta {
   margin-top: 2rem;
 }

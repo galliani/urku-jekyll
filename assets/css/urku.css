@@ -79,7 +79,7 @@ body {
   -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 1rem;
-  padding-top: 2.8rem;
+  padding-top: 2rem;
   width: 80%;
 }
 @media (min-width: 64em) {
@@ -173,7 +173,7 @@ body {
 }
 
 .rk-mobile-menu {
-  display: none;
+  /*display: none;*/
 }
 .rk-mobile-menu + label {
   cursor: pointer;
@@ -206,7 +206,7 @@ body {
 }
 @media (min-width: 64em) {
   .rk-mobile-menu + label {
-    display: none;
+    /*display: none;*/
   }
 }
 .rk-mobile-menu:checked + label,
@@ -1941,7 +1941,7 @@ body {
   -webkit-align-self: baseline;
   -ms-flex-item-align: baseline;
           align-self: baseline;
-  display: none;
+  /*display: none;*/
 }
 @media (min-width: 64em) {
   .rk-navigation {

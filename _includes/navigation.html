@@ -1,28 +1,21 @@
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-<!--       <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label> -->
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo">
-            <a href="index.html">{{ site.data.settings.brand_name }}</a>
-        </h1>
-        <!-- <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="active rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-            </li>
-          </ul> -->
-          <!-- Include search.html here if you want -->
-        <!-- </nav> -->
-      </div>
-    </header>
+<header class="ae-container-fluid ae-container-fluid--full rk-header ">
+
+  <div class="ae-container-fluid rk-topbar">
+    <nav class="rk-navigation">
+      <ul class="rk-menu">
+        <li class="active rk-menu__item">
+          <a class="" href="/">
+            <div class="span-logo">
+              <img src="{{ site.data.settings.styling.logo }}" /> 
+            </div>
+            <div class="rk-logo">
+              <a>{{ site.data.settings.brand_name }}</a>
+            </div>            
+          </a>
+        </li>
+      </ul>
+      <!-- Include search.html here if you want -->
+    </nav>
+  </div>
+
+</header>
