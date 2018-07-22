@@ -1,3 +1,6 @@
+
+{% assign social_urls =  site.data.settings.social_media %}
+
 <div class="au-xs-ta-center ae-grid__item item-lg-6 item-lg--offset-3" style="margin-top: 120px;">
   <h4 class="ae-u-bolder au-mb-3 conatct__title">Hubungi Kami</h4>
   <p class="contact__addr">{{ site.data.settings.address }}</p>
@@ -14,22 +17,23 @@
   </p>
   
   <p><small>Atau kunjungi kami di media sosial</small></p>
-  {% if site.data.settings.facebook_url %}
-    <a href="{{ site.data.settings.facebook_url }}" class="rk-social-btn ">
+
+  {% if social_urls.facebook_url and social_urls.facebook_url != '' %}
+    <a href="{{ social_urls.facebook_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-facebook"></use>
       </svg>
     </a>
   {% endif %}
-  {% if site.data.settings.twitter_url %}
-    <a href="{{ site.data.settings.twitter_url }}" class="rk-social-btn ">
+  {% if social_urls.twitter_url and social_urls.twitter_url != '' %}
+    <a href="{{ social_urls.twitter_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-twitter"></use>
       </svg>
     </a>
   {% endif %}
-  {% if site.data.settings.instagram_url %}
-    <a href="{{ site.data.settings.instagram_url }}" class="rk-social-btn ">
+  {% if social_urls.instagram_url and social_urls.instagram_url != '' %}
+    <a href="{{ social_urls.instagram_url }}" class="rk-social-btn ">
       <svg>
         <use xlink:href="assets/img/symbols.svg#logo-instagram"></use>
       </svg>
