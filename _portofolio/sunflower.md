@@ -4,7 +4,7 @@ description: |-
   Sunflower, Peacock & Leaf
 
   Wrap: Brown Paper
-price: '145018'
+price: '145000'
 category: Special Bouquet
 display_picture: /images/feed171-bersemi.jpg
 ---
