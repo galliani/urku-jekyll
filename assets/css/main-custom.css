@@ -21,6 +21,9 @@ header .rk-logo a {
   display: table-cell; 
   vertical-align: middle;
   text-align: left;
+  font-family: 'Parisienne', cursive;
+  text-transform: none;
+  font-size: 32px;  
 }
 
 
