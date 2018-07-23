@@ -1,6 +1,8 @@
 ---
 title: Rose Single Bouquet
 description: |-
+  ![](/images/feed214-bersemi.jpg)
+
   Choose of colour: Red, White, Soft Pink, Pink Fanta, Pink, Purple
 
   _Minimum purchase 6 Single Bouquet_
