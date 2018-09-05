@@ -1,5 +1,5 @@
 ---
-title: 'Love, Rosie'
+title: 'Love, Rosie (20)'
 description: |-
   20 Roses, Baby's Breath & Leaves
 
