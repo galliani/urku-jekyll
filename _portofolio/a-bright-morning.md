@@ -4,7 +4,7 @@ description: |-
   Yellow Chrysant, White Chrysant, & Leaves
 
   Wrap: Brown Paper
-price: '150000'
+price: '155000'
 category: Special Bouquet
 display_picture: /images/feed231-bersemi.jpg
 ---
