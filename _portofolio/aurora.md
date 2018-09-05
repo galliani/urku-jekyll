@@ -6,7 +6,7 @@ description: |-
   Wrap: Cellophane
 
   _Another colour of cellophane_
-price: '300000'
+price: '350000'
 category: Special Bouquet
 display_picture: /images/feed81-bersemi.jpg
 ---
