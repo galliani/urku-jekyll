@@ -6,6 +6,6 @@ description: |-
   _Minimum purchase 6 Single Bouquet_
 price: '17000'
 category: Single Bouquet
-display_picture: /images/feed183-bersemi.jpg
+display_picture: /images/single-gerbera.jpg
 ---
 
