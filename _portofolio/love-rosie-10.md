@@ -12,6 +12,6 @@ description: |-
   _The price is vary, depends on the amount of the rose_
 price: '230000'
 category: Special Bouquet
-display_picture: /images/feed235-bersemi.jpg
+display_picture: /images/love-rosie-10.jpg
 ---
 
