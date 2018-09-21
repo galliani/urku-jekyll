@@ -8,6 +8,6 @@ description: |-
   _Another colour of Gerbera: Red, White, Soft Pink, Pink Fanta, Yellow_
 price: '125000'
 category: Special Bouquet
-display_picture: /images/feed35-bersemi.jpg
+display_picture: /images/gerbera-on-top.jpg
 ---
 
