@@ -12,6 +12,6 @@ description: |-
   _The price is vary, depends on the amount of the rose_
 price: '315000'
 category: Roses Bouquet
-display_picture: /images/4.jpg
+display_picture: /images/la-vie-en-rose.jpg
 ---
 
