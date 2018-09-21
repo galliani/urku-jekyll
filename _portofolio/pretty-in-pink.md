@@ -6,6 +6,6 @@ description: |-
   Round Box, Size 25cm, Pink
 price: '600000'
 category: Flower Box
-display_picture: /images/feed148-bersemi.jpg
+display_picture: /images/pretty-in-pink.jpg
 ---
 
