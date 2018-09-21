@@ -8,6 +8,6 @@ description: |-
   _Another colour of cellophane_
 price: '365000'
 category: Special Bouquet
-display_picture: /images/feed73-bersemi.jpg
+display_picture: /images/snow-queen.jpg
 ---
 
