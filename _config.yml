@@ -1,5 +1,24 @@
 ---
-title: Panduan olshop Kapiten
+title: Bersemi Florist
+description: >-
+  Florist Online yang menjual Buket bunga (Flower Bouquet), Box bunga (Flower
+  Box) & Buket Pengantin (Bridal Bouquet) dengan harga yang terjangkau. Kami
+  memiliki banyak pilihan jenis bunga yang dapat disesuaikan dengan selera anda.
+
+image:
+  path: '/images/single-sunflower.jpg'
+  height: 100
+  width: 100
+
+logo: /images/new-logo3-no-background1.png
+url: 'https://bersemi.id'
+
+social:
+  name: Bersemi
+  links:
+    - https://instagram.com/ber.semi
+
+headline: 'Bersemi Florist: Flower Bouquet, Flower Box & Bridal Bouquet'
 current_year: 2018
 timezone: UTC
 collections:
