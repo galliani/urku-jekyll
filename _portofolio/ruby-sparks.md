@@ -6,6 +6,6 @@ description: |-
   Wrap: Purple Cellophane
 price: '275000'
 category: Special Bouquet
-display_picture: /images/feed152-bersemi.jpg
+display_picture: /images/ruby-sparks.jpg
 ---
 

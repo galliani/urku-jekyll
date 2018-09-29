@@ -3,9 +3,9 @@ title: Snow White
 description: |-
   All Baby's Breath
 
-  Wrap: Jute & Ribbon
+  Wrap: Jute Rope / Jute
 price: '290000'
 category: Bridal Bouquet
-display_picture: /images/feed122-bersemi.jpg
+display_picture: /images/snow-white.jpg
 ---
 

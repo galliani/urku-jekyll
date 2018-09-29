@@ -4,8 +4,8 @@ description: |-
   Green Hydrangea, White Carnation, Yellow Mini Aster, Caspea & Leaves
 
   Wrap: White Cellophane
-price: '265000'
+price: '280000'
 category: Special Bouquet
-display_picture: /images/feed100-bersemi.jpg
+display_picture: /images/hydragreen.jpg
 ---
 

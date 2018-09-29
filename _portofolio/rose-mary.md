@@ -1,5 +1,5 @@
 ---
-title: Rose Mary
+title: Rose Mary (20)
 description: |-
   20 Roses & Leaves
 
@@ -12,6 +12,6 @@ description: |-
   _The price is vary, depends on the amount of the rose_
 price: '270000'
 category: Roses Bouquet
-display_picture: /images/feed130-bersemi.jpg
+display_picture: /images/rose-mary.jpg
 ---
 

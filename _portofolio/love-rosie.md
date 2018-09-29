@@ -12,6 +12,6 @@ description: |-
   _The price is vary, depends on the amount of the rose_
 price: '295000'
 category: Roses Bouquet
-display_picture: /images/feed59-bersemi.jpg
+display_picture: /images/love-rosie-20.jpg
 ---
 

@@ -4,8 +4,8 @@ description: |-
   Blue Hydrangea, White Chrysant, White Gerbera & Baby's Breath
 
   Round Box, Size 25cm, Pink/Black/White/Gold
-price: '500000'
+price: '550000'
 category: Flower Box
-display_picture: /images/feed66-bersemi.jpg
+display_picture: /images/the-bubbles.jpg
 ---
 

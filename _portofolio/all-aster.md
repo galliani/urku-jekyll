@@ -8,6 +8,6 @@ description: |-
   _Buy 5 or more, only @50k per bouquet_
 price: '60000'
 category: Mini Bouquet
-display_picture: /images/feed179-bersemi.jpg
+display_picture: /images/all-about-aster.jpg
 ---
 
