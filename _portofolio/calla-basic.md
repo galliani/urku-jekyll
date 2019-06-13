@@ -8,6 +8,6 @@ description: |-
   _Another colour of cellophane_
 price: '300000'
 category: Special Bouquet
-display_picture: /images/calla-basic.jpg
+display_picture: /images/feed295-bersemi.jpg
 ---
 
