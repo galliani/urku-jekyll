@@ -4,8 +4,8 @@ description: |-
   Blue Hydrangea, White Chrysant, Baby's Breath & Leaves
 
   Wrap: White Cellophane
-price: '250000'
+price: '265000'
 category: Special Bouquet
-display_picture: /images/i-sea-you.jpg
+display_picture: /images/feed316-bersemi.jpg
 ---
 
