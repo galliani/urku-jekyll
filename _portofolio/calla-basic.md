@@ -6,7 +6,7 @@ description: |-
   Wrap: Cellophane
 
   _Another colour of cellophane_
-price: '270000'
+price: '300000'
 category: Special Bouquet
 display_picture: /images/calla-basic.jpg
 ---
