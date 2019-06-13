@@ -6,7 +6,7 @@ description: |-
   Wrap: Brown Paper / Cellophane
 
   _Another colour of cellophane_
-price: '365000'
+price: '400000'
 category: Special Bouquet
 display_picture: /images/snow-queen.jpg
 ---
