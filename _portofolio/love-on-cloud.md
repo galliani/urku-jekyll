@@ -8,8 +8,8 @@ description: |-
   _Another colour of Carnation: Soft Pink, Pink, Red, White, Orange, Purple_
 
   _Another colour of cellophane_
-price: '230000'
+price: '275000'
 category: Special Bouquet
-display_picture: /images/love-on-cloud.jpg
+display_picture: /images/feed261-bersemi.jpg
 ---
 
