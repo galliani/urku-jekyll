@@ -10,7 +10,7 @@ description: |-
   _Another colour of cellophane_
 
   _The price is vary, depends on the amount of the rose_
-price: '270000'
+price: '290000'
 category: Roses Bouquet
 display_picture: /images/rose-mary.jpg
 ---
