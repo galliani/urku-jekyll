@@ -8,6 +8,6 @@ description: |-
   _Another colour of Roses: Red, White, Pink Fanta, Soft Pink, Purple_
 price: '385000'
 category: Bridal Bouquet
-display_picture: /images/marry-me.jpg
+display_picture: /images/feed341-3-bersemi.jpg
 ---
 
