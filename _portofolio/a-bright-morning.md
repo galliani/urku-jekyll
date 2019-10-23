@@ -6,6 +6,6 @@ description: |-
   Wrap: Brown Paper
 price: '160000'
 category: Special Bouquet
-display_picture: /images/a-bright-morning.jpg
+display_picture: /images/feed251-bersemi.jpg
 ---
 
