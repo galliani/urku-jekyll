@@ -6,6 +6,6 @@ description: |-
   Wrap: Brown Paper
 price: '155000'
 category: Special Bouquet
-display_picture: /images/feed313-bersemi.jpg
+display_picture: /images/img_5929-copy.jpg
 ---
 
