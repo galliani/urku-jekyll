@@ -1,11 +1,11 @@
 ---
-title: Hydragreen
+title: Serenity
 description: |-
-  Green Hydrangea, White Carnation, Yellow Mini Aster, Caspea & Leaves
+  Hydrangea, White Carnation, Mini Aster, Caspea & Babys Breath
 
-  Wrap: White Cellophane
-price: '280000'
+  Wrap: Cellophane
+price: '295000'
 category: Special Bouquet
-display_picture: /images/hydragreen.jpg
+display_picture: /images/feed324-bersemi.jpg
 ---
 
