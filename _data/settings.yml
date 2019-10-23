@@ -4,12 +4,12 @@ description: >-
   Florist Online yang menjual berbagai macam rangkaian bunga dengan harga yang
   terjangkau. Kami memiliki banyak pilihan jenis bunga yang dapat disesuaikan
   dengan selera anda.
-headline: 'Flower Arrangements: Bouquet, Card Box, Bridal, Box'
+headline: |-
+  Flower Arrangements: 
+  Hand Bouquet, Bridal Bouquet, Flower Box, Card Box
 email: dikala.bersemi@gmail.com
 phone_number: +62 801 212 600
-location: |-
-  Cilandak, Jakarta
-  Indonesia
+location: 'South Jakarta, Indonesia'
 styling:
   favicon: /images/new-logo3-no-background-min.png
   logo: /images/new-logo3-no-background1.png
