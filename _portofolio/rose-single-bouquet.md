@@ -4,8 +4,8 @@ description: |-
   Choose of colour: Red, White, Soft Pink, Pink Fanta, Pink, Purple, Orange
 
   _Minimum purchase 6 Single Bouquet_
-price: '25000'
+price: '35000'
 category: Single Bouquet
-display_picture: /images/single-rose.jpg
+display_picture: /images/feed359-bersemi.jpg
 ---
 
