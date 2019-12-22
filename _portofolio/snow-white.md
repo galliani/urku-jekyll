@@ -6,6 +6,6 @@ description: |-
   Wrap: Jute Rope / Jute
 price: '290000'
 category: Bridal Bouquet
-display_picture: /images/snow-white.jpg
+display_picture: /images/img_1704.jpg
 ---
 
