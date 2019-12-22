@@ -1,5 +1,5 @@
 ---
-title: All Chrysant
+title: All About Chrysant
 description: |-
   Choose of colour: White, Red, Yellow, Pink, Purple
 
