@@ -1,5 +1,5 @@
 ---
-title: All Aster
+title: All About Aster
 description: |-
   Choose of colour: White, Yellow, Pink, Purple, Orange
 
